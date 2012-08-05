@@ -13,19 +13,19 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project         = "locomotive_editor"
 
-  s.add_dependency 'rack',                            '1.4.0'
-  s.add_dependency 'thin',                            '~> 1.3.1'
+  s.add_dependency 'rack',                            '1.4.1'
+  s.add_dependency 'thin',                            '~> 1.4.1'
   s.add_dependency 'sinatra',                         '~> 1.3.2'
   s.add_dependency 'haml',                            '3.1.6'
   s.add_dependency 'coffee-script',                   '~> 2.2.0'
   s.add_dependency 'therubyracer',                    '~> 0.9.10' unless (RbConfig::CONFIG['host_os'] =~ /mswin|mingw|cygwin/)
   s.add_dependency 'compass',                         '~> 0.12.1'
   s.add_dependency 'locomotive_liquid',               '~> 2.2.2'
-  s.add_dependency 'activesupport',                   '~> 3.1.3'
+  s.add_dependency 'activesupport',                   '~> 3.2.6'
   s.add_dependency 'i18n',                            '~> 0.6.0'
   s.add_dependency 'RedCloth',                        '~> 4.2.3'
   s.add_dependency 'will_paginate',                   '~> 2.3.15'
-  s.add_dependency 'multi_json',                      '~> 1.2.0'
+  s.add_dependency 'multi_json',                      '~> 1.3.6'
   s.add_dependency 'httmultiparty',                   '0.3.8'
   s.add_dependency 'json',                            '~> 1.7.4'
   s.add_dependency 'sinatra-i18n',                    '~> 0.1.0'
