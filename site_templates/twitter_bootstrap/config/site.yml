@@ -1,0 +1,16 @@
+site:
+  name: <%= @name %>
+
+  locales: [en, fr, de]
+
+  seo_title: <%= @name %>
+  meta_keywords: "some meta keywords"
+  meta_description: "some meta description"
+
+  pages:
+    - "index": # page path (the template can edited here app/views/pages/index.liquid)
+        title: "Home page"
+        published: true
+    - "404":
+        title: "Page not found"
+        published: true

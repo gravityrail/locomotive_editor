@@ -1,0 +1,12 @@
+en:
+  errors:
+    messages:
+      blank: "can't not blank"
+
+  date:
+    formats:
+      default: "%m/%d/%Y"
+
+  pagination:
+    previous: "&laquo; Previous"
+    next: "Next &raquo;"
